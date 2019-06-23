@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-docs-samples-speech",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Google Inc.",
+  "repository": "yossyw/google-stt-trial",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "mocha system-test --timeout 600000"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^3.2.1",
+    "@google-cloud/storage": "^2.0.0",
+    "chalk": "^2.4.2",
+    "node-record-lpcm16": "^0.3.0",
+    "sox": "^0.1.0",
+    "yargs": "^13.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "uuid": "^3.3.0"
+  }
+}
